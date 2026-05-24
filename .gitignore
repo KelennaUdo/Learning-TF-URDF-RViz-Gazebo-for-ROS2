@@ -1,0 +1,47 @@
+# ROS 2 / colcon generated directories
+build/
+install/
+log/
+
+# Python cache and packaging artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# CMake and compiler artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.so
+*.a
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+
+# ROS bag recordings and large generated data
+*.bag
+*.db3
+*.mcap
+rosbag2_*/
+
+# Gazebo generated state and logs
+*.log
+*.state
+
+# Temporary files
+tmp/
+temp/
